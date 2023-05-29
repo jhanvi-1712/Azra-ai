@@ -1,0 +1,61 @@
+[ {
+  "id" : "95b0ffc8-64b9-f1d9-aa27-71c61455b3f1",
+  "name" : "about_subheading",
+  "display_width" : null,
+  "label" : "about-subheading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "About Azra.ai"
+}, {
+  "id" : "7341a21f-0daf-5f7e-3c12-515a7fc3a7bd",
+  "name" : "about_heading",
+  "display_width" : null,
+  "label" : "about_heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Convert Your Unstructured Data Into Actionable Insights With NLP "
+}, {
+  "id" : "e67025d4-370b-5c52-16e0-ad96f52e1bba",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "More Than 80% Of A Patient’s Record Is Doctor’s Notes Written In Natural Language. Azra AI Is The Only XX That Is Able To Parse Unstructured Data With XX Accuracy."
+}, {
+  "id" : "afca914c-65d2-402f-1510-a4c8c99989d6",
+  "name" : "description1",
+  "display_width" : null,
+  "label" : "description1",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Born From A Program That Found Victims Of Human Trafficking On The Dark Web, Azra AI Was Adapted To Find Oncology Patients In Need Of Attention."
+}, {
+  "id" : "53d64e85-16a3-3abe-f591-6faf3772129d",
+  "name" : "description_2",
+  "display_width" : null,
+  "label" : "description-2",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500S, When An Unknown Printer Took A Galley Of Type And Scrambled It To Make A Type Specimen Book. It Has Survived Not Only Five Centuries, But Also The Leap Into Electronic Typesetting, Remaining Essentially Unchanged."
+} ]

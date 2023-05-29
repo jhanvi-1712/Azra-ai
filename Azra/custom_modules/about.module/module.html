@@ -1,0 +1,55 @@
+<div class="about">
+  <div class ="wrapper">
+      <div class ="content-about">
+        {% if module.about_subheading %}
+        <div class="about_subheading">
+        <h4>
+          {{ module.about_subheading }}
+          </h4>
+      </div>
+        {% endif %}
+    <div class="sub-about">
+    <div class="left_about">
+      
+       {% if module.about_heading %}
+      <div class="about_heading">
+     <h2>
+        {{ module.about_heading }}  
+        </h2>
+      </div>
+      {% endif %}
+      
+      <div class ="about_hr">
+        <hr>
+      </div>
+      </div>
+      <div class="right_about">
+         {% if  module.description %}
+        <div class="description1">
+          <p>
+            {{ module.description }}
+          </p>
+        </div>
+        {% endif %}
+        
+        {% if  module.description1 %}
+         <div class="description2">
+          <p>
+            {{ module.description1 }}
+           </p>
+        </div>
+        {% endif %}
+        
+         {% if  module.description_2 %}
+        <div class="description2">
+         <p>
+            {{ module.description_2 }}
+          </p>
+        </div>
+        {% endif %}
+        
+      </div>
+    </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+<div class="operations">
+  <div class="wrapper">
+    <div class="sub-operations">
+      
+      {% if  module.operations_heading  %}
+      <div class="operations_heading">
+        <h4>
+         {{ module.operations_heading }}
+        </h4>
+      </div>
+      {% endif %}
+      
+       {% if  module.operations_sub_heading  %}
+      <div class="operations_sub-heading">
+        <h2>
+          {{ module.operations_sub_heading }}
+        </h2>
+      </div>
+      {% endif %}
+      
+      <div class="background_container">
+
+      </div>
+        <div class="svg_container">
+            {% for item in module.svg_card %}
+          <div class="svg_card">
+            <div class="svg_shape">
+            <div class="svg">
+              	{% inline_rich_text field="shape" value="{{ item.shape }}" %}
+            </div>
+            <div class="overlay">
+            <div class="image_svg">
+            {{ item.img_svg }}
+	
+          </div>
+          <div class="caption">
+            <h4>
+              {{ item.caption }}
+            </h4>
+          </div>
+            </div>
+          </div>
+          <div class="svg_description">
+            <p>	{{ item.svg_describe }}</p>
+          </div>
+          </div>
+          {% endfor %}   
+        </div>
+      {% if module.arrow %}
+      <div class="arrow">
+        {{ module.arrow }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

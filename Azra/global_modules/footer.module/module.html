@@ -1,0 +1,97 @@
+<div class="footer">
+  <div class="wrapper">
+    <div class="sub_footer">
+      <div class="top_footer">
+        <div class="col1">
+          {% if  module.logo_field %}
+          <div class="logo">
+            {% set loadingAttr = module.logo_field.loading != 'disabled' ? '{{ module.logo_field.loading }}' : '' %}
+
+            {% logo
+	override_inherited_src="{{ module.logo_field.override_inherited_src }}"
+	src="{{ module.logo_field.src }}"
+	alt="{{ module.logo_field.alt }}"
+	width="{{ module.logo_field.width }}"
+	height="{{ module.logo_field.height }}"
+	loading="{{ loadingAttr }}"
+	suppress_company_name="{{ module.logo_field.suppress_company_name }}"
+%}
+          </div>
+          {% endif %}
+
+          {% if module.rich_text %}
+          <div class="description">  
+            {{ module.rich_text }}   
+          </div>
+          {% endif %}
+        </div> 
+
+        <div class="col2">
+          {% if  module.contact_us %}
+          <div class="heading">
+            {{ module.contact_us }} 
+          </div> 
+          {% endif %}
+          
+         <div class="contact_group">
+               {% for item in module.contact_details %}
+          <div class="contact_details">
+       
+          <div  class="contact_icons">
+	          {{ item.location }}
+            </div>
+        
+            <div class="contact_description">
+              {{ item.address }}
+            </div>
+          </div>
+         {% endfor %}
+          </div>
+        </div>
+
+        
+        <div class="col3">
+          <div class= "heading">
+            <h4>
+              {{ module.follow }}
+            </h4>
+          </div>
+          <div class="icon_group">
+            {% for item in module.icon1 %}
+            <div class = "circle">
+              {% inline_rich_text field="icon1" value="{{ item }}" %}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="bottom_footer">
+        <div class = "hr">
+          <hr>
+        </div>
+
+        <div class="sub_bottom_footer">
+          <div class="left_footer">
+            {% for item in module.privacy %}
+            <div class="privacy">
+              <a href="#">{% inline_rich_text field="privacy" value="{{ item }}" %}</a>
+              <hr> 
+            </div>
+            {% endfor %}
+          </div>
+
+          {% if module.copyright %}
+          <div class="right_footer">
+            <p>
+              {{ module.copyright }}
+            </p>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+

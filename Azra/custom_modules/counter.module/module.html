@@ -1,0 +1,87 @@
+<div class = "counter">
+  <div class= "wrapper">
+    <div class= "content-counter">
+      <div class="card_container">
+        
+          {% for item in module.number_text %}
+        <div class="card">
+            
+	        <div class="number">
+           <h1>
+	       {% inline_text field="number" value="{{ item.number }}" %}
+            </h1>
+          </div>
+       
+          
+	        <div class="text">
+            	<h3>
+               	{% inline_text field="describe_number" value="{{ item.describe_number }}" %}
+            </h3>
+          </div>
+         
+        </div>
+       {% endfor %}
+      </div>
+      
+      {% if module.content_heading %}
+       <div class="content_heading sub_heading">
+            <h2>
+              {{ module.content_heading  }}
+         </h2>
+          </div>
+      {% endif %}
+      
+      <div class="sub_content">
+           {% if module.image_field %}
+        <div class="left_content">
+          {% if module.image_field.src %}
+	{% set sizeAttrs = 'width="{{ module.image_field.width }}" height="{{ module.image_field.height }}"' %}
+	{% if module.image_field.size_type == 'auto' %}
+		{% set sizeAttrs = 'width="{{ module.image_field.width }}" height="{{ module.image_field.height }}" style="max-width: 100%; height: auto;"' %}
+	{% elif module.image_field.size_type == 'auto_custom_max' %}
+		{% set sizeAttrs = 'width="{{ module.image_field.max_width }}" height="{{ module.image_field.max_height }}" style="max-width: 100%; height: auto;"' %}
+	{% endif %}
+	 {% set loadingAttr = module.image_field.loading != 'disabled' ? 'loading="{{ module.image_field.loading }}"' : '' %}
+	<img src="{{ module.image_field.src }}" alt="{{ module.image_field.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+        </div>
+          {% endif %}
+        
+        <div class="right_content">
+          
+          
+          {% if module.content_heading %}
+       <div class="content_heading ">
+            <h2>
+              {{ module.content_heading  }}
+         </h2>
+          </div>
+      {% endif %}
+          
+          {% if module.content_describe %}
+          <div class="content_description">
+            <p>
+              {{ module.content_describe }}
+            </p>
+          </div>
+          {% endif %}
+          
+           {% if module.button_group  %}
+          <div class="btn1">
+            {% set href = module.button_group.button_counter.url.href %}
+{% if module.button_group.button_counter.url.type is equalto "EMAIL_ADDRESS" %}
+	{% set href = "mailto:" + href %}
+{% endif %}
+<a href="{{ href }}"
+	{% if module.button_group.button_counter.open_in_new_tab %}target="_blank"{% endif %}
+	{% if module.button_group.button_counter.rel %}rel="{{ module.button_group.button_counter.rel }}"{% endif %}
+	>
+	{{ module.button_group.btn_text }}
+            </a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

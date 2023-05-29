@@ -1,0 +1,111 @@
+[ {
+  "id" : "c14ff407-328e-c3d1-4b9c-128d825bd04c",
+  "name" : "menu_field",
+  "display_width" : null,
+  "label" : "Menu",
+  "required" : false,
+  "locked" : true,
+  "type" : "menu",
+  "default" : 114979649955
+}, {
+  "id" : "26b76360-2355-7794-a32c-c71b1497f678",
+  "name" : "button_setting",
+  "display_width" : null,
+  "label" : "Button Setting",
+  "required" : false,
+  "locked" : true,
+  "children" : [ {
+    "id" : "48943ef0-6914-29fb-276d-5acf3a8d3327",
+    "name" : "link_field",
+    "display_width" : null,
+    "label" : "Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "6dd0ced8-1e13-d756-b31e-afd82b71cba6",
+    "name" : "text_field",
+    "display_width" : null,
+    "label" : "Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Get Demo"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "link_field" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    },
+    "text_field" : "Get Demo"
+  }
+}, {
+  "id" : "46ebddf6-fd51-0d1a-80c6-d7ca9028daca",
+  "name" : "logo_field",
+  "display_width" : null,
+  "label" : "Logo",
+  "required" : false,
+  "locked" : true,
+  "show_loading" : false,
+  "type" : "logo",
+  "default" : {
+    "override_inherited_src" : true,
+    "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Azra.ai.png",
+    "alt" : "Azra.ai",
+    "suppress_company_name" : true,
+    "width" : 133,
+    "height" : 53
+  }
+}, {
+  "id" : "8f597986-736c-0abe-4af7-2235a95d8c11",
+  "name" : "hamburger",
+  "display_width" : null,
+  "label" : "hamburger",
+  "required" : false,
+  "locked" : true,
+  "type" : "richtext",
+  "default" : "<svg xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"50\" height=\"50\" viewBox=\"0 0 100 100\" style=\"fill: #FFFFFF;\"> <path d=\"M 17 21 A 1.0001 1.0001 0 0 0 16 22 L 16 32 A 1.0001 1.0001 0 0 0 17 33 L 83 33 A 1.0001 1.0001 0 0 0 84 32 L 84 22 A 1.0001 1.0001 0 0 0 83 21 L 17 21 z M 18 23 L 82 23 L 82 31 L 18 31 L 18 29 L 73.5 29 A 0.50005 0.50005 0 1 0 73.5 28 L 18 28 L 18 23 z M 76.5 28 A 0.50005 0.50005 0 1 0 76.5 29 L 78.5 29 A 0.50005 0.50005 0 1 0 78.5 28 L 76.5 28 z M 17 44 A 1.0001 1.0001 0 0 0 16 45 L 16 55 A 1.0001 1.0001 0 0 0 17 56 L 83 56 A 1.0001 1.0001 0 0 0 84 55 L 84 45 A 1.0001 1.0001 0 0 0 83 44 L 17 44 z M 18 46 L 82 46 L 82 54 L 18 54 L 18 46 z M 22.5 51 A 0.50005 0.50005 0 1 0 22.5 52 L 67.5 52 A 0.50005 0.50005 0 1 0 67.5 51 L 22.5 51 z M 70.5 51 A 0.50005 0.50005 0 1 0 70.5 52 L 73.5 52 A 0.50005 0.50005 0 1 0 73.5 51 L 70.5 51 z M 76.5 51 A 0.50005 0.50005 0 1 0 76.5 52 L 78.5 52 A 0.50005 0.50005 0 1 0 78.5 51 L 76.5 51 z M 17 67 A 1.0001 1.0001 0 0 0 16 68 L 16 78 A 1.0001 1.0001 0 0 0 17 79 L 83 79 A 1.0001 1.0001 0 0 0 84 78 L 84 68 A 1.0001 1.0001 0 0 0 83 67 L 17 67 z M 18 69 L 82 69 L 82 74 L 26.5 74 A 0.50005 0.50005 0 1 0 26.5 75 L 82 75 L 82 77 L 18 77 L 18 69 z M 21.5 74 A 0.50005 0.50005 0 1 0 21.5 75 L 23.5 75 A 0.50005 0.50005 0 1 0 23.5 74 L 21.5 74 z\"></path> </svg>"
+}, {
+  "id" : "9031a32b-89a1-a469-66eb-12abd2bd8507",
+  "name" : "multiply",
+  "display_width" : null,
+  "label" : "multiply",
+  "required" : false,
+  "locked" : true,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/icons8-multiply-50.png",
+    "alt" : "icons8-multiply-50",
+    "loading" : "lazy",
+    "width" : 50,
+    "height" : 50,
+    "max_width" : 50,
+    "max_height" : 50
+  }
+} ]

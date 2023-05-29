@@ -1,0 +1,154 @@
+[ {
+  "id" : "bca5fded-75d2-1f90-e6c1-1f728be70f65",
+  "name" : "number_text",
+  "display_width" : null,
+  "label" : "number-text",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 4,
+    "sorting_label_field" : "181d655a-5f12-39f5-dde8-c9757c7d3e26",
+    "default" : 4
+  },
+  "children" : [ {
+    "id" : "e4bbbe78-49a6-cec4-3bb1-6149b59b1cbf",
+    "name" : "number",
+    "display_width" : null,
+    "label" : "number",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "2010"
+  }, {
+    "id" : "82636749-0600-703c-bd9c-f434ad9fc7ed",
+    "name" : "describe_number",
+    "display_width" : null,
+    "label" : "describe-number",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Year of Foundation"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "describe_number" : "Year of Foundation",
+    "number" : "2010"
+  }, {
+    "describe_number" : "Year of Foundation",
+    "number" : "2010"
+  }, {
+    "describe_number" : "Year of Foundation",
+    "number" : "2010"
+  }, {
+    "describe_number" : "Year of Foundation",
+    "number" : "2010"
+  } ]
+}, {
+  "id" : "57ba5459-8eb8-1992-3481-6af724dfcefc",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/istockphoto-1185723381-612x612-1.png",
+    "alt" : "istockphoto-1185723381-612x612-1",
+    "loading" : "lazy",
+    "width" : 629,
+    "height" : 419,
+    "max_width" : 629,
+    "max_height" : 419
+  }
+}, {
+  "id" : "3a74b6ab-b8bf-f2d6-9725-e435138ffe9b",
+  "name" : "button_group",
+  "display_width" : null,
+  "label" : "button group",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "8b32f6ce-e051-4f44-c04e-bee7c97bceb5",
+    "name" : "button_counter",
+    "display_width" : null,
+    "label" : "button_counter",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "aa40c65e-ee03-462a-5cc5-2e8c891e19a3",
+    "name" : "btn_text",
+    "display_width" : null,
+    "label" : "btn-text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Get Demo"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "button_counter" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    },
+    "btn_text" : "Get Demo"
+  }
+}, {
+  "id" : "c5be1e22-09d5-7726-d4ac-8a4c30f9a360",
+  "name" : "content_heading",
+  "display_width" : null,
+  "label" : "content-heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Put The Lives In Your Hands In Front Of Your Eyes"
+}, {
+  "id" : "0471e32a-bbce-0534-5dba-f32a62b9687c",
+  "name" : "content_describe",
+  "display_width" : null,
+  "label" : "content-describe",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500S, When An Unknown Printer Took A Galley Of Type And Scrambled It To Make A Type Specimen Book. It Has Survived Not Only Five Centuries, But Also The Leap Into Electronic Typesetting, Remaining Essentially Unchanged."
+} ]

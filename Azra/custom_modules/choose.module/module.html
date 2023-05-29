@@ -1,0 +1,63 @@
+<div class="choose">
+  <div class="wrapper">
+    <div class="sub_choose">
+         {% if module.choose_heading %}
+      <div class="choose-heading">
+        <h4>
+          {{ module.choose_heading }}
+        </h4>
+      </div>
+      {% endif %}
+      
+       {% if module.choose_subheading %}
+      <div class="choose-sub-heading">
+        <h2>
+          {{ module.choose_subheading }}
+        </h2>
+      </div>
+      {% endif %}
+      
+      
+      <div class="choose_container">
+        {% for item in module.choose_card %}
+        <div class="choose_card">
+           {% if item.choose_circle_image %}
+          <div class="choose_circle">
+          {% if item.choose_circle_image.src %}
+		{% set sizeAttrs = 'width="{{ item.choose_circle_image.width }}" height="{{ item.choose_circle_image.height }}"' %}
+		{% if item.choose_circle_image.size_type == 'auto' %}
+			{% set sizeAttrs = 'width="{{ item.choose_circle_image.width }}" height="{{ item.choose_circle_image.height }}" style="max-width: 100%; height: auto;"' %}
+		{% elif item.choose_circle_image.size_type == 'auto_custom_max' %}
+			{% set sizeAttrs = 'width="{{ item.choose_circle_image.max_width }}" height="{{ item.choose_circle_image.max_height }}" style="max-width: 100%; height: auto;"' %}
+		{% endif %}
+		 {% set loadingAttr = item.choose_circle_image.loading != 'disabled' ? 'loading="{{ item.choose_circle_image.loading }}"' : '' %}
+		<img src="{{ item.choose_circle_image.src }}" alt="{{ item.choose_circle_image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+	{% endif %}
+          </div>
+      {% endif %}
+          
+         <div class="right_card">
+           
+           {% if item.card_heading %}
+            <div class="card_heading">
+            <h3>
+           {{ item.card_heading }}
+            </h3>
+          </div>
+                 {% endif %}
+           
+            {% if item.card_sub_heading  %}
+          <div class="card_sub_heading">
+            <p>
+             {{ item.card_sub_heading }}
+            </p>
+          </div>
+             {% endif %}
+           
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

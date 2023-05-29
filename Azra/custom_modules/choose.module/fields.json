@@ -1,0 +1,127 @@
+[ {
+  "id" : "e9ccfea4-b121-4b19-972f-1fb5baf7a61f",
+  "name" : "choose_card",
+  "display_width" : null,
+  "label" : "choose-card",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 3,
+    "sorting_label_field" : null,
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "b4b56d84-55d3-7fa9-0397-a327350f253b",
+    "name" : "choose_circle_image",
+    "display_width" : null,
+    "label" : "choose_circle_image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Group%205424.png",
+      "alt" : "Group 5424",
+      "loading" : "lazy",
+      "width" : 43,
+      "height" : 52,
+      "max_width" : 43,
+      "max_height" : 52
+    }
+  }, {
+    "id" : "982fdc01-9126-b0a1-fce6-1480cc26f565",
+    "name" : "card_heading",
+    "display_width" : null,
+    "label" : "card_heading",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Identify"
+  }, {
+    "id" : "e1d1183f-fd6e-5c38-2857-b50e84d8cbef",
+    "name" : "card_sub_heading",
+    "display_width" : null,
+    "label" : "card-sub-heading",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "choose_circle_image" : {
+      "size_type" : "auto",
+      "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Group%205424.png",
+      "alt" : "Group 5424",
+      "loading" : "lazy",
+      "width" : 43,
+      "height" : 52,
+      "max_width" : 43,
+      "max_height" : 52
+    },
+    "card_heading" : "Identify",
+    "card_sub_heading" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever"
+  }, {
+    "choose_circle_image" : {
+      "size_type" : "auto",
+      "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Group%205424.png",
+      "alt" : "Group 5424",
+      "loading" : "lazy",
+      "width" : 43,
+      "height" : 52,
+      "max_width" : 43,
+      "max_height" : 52
+    },
+    "card_heading" : "Identify",
+    "card_sub_heading" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever"
+  }, {
+    "choose_circle_image" : {
+      "size_type" : "auto",
+      "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Group%205424.png",
+      "alt" : "Group 5424",
+      "loading" : "lazy",
+      "width" : 43,
+      "height" : 52,
+      "max_width" : 43,
+      "max_height" : 52
+    },
+    "card_heading" : "Identify",
+    "card_sub_heading" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever"
+  } ]
+}, {
+  "id" : "01101200-8b51-25ad-f31d-db84c313e15d",
+  "name" : "choose_heading",
+  "display_width" : null,
+  "label" : "choose_heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Why choose us"
+}, {
+  "id" : "df402d2f-355d-cb9d-0dac-54326cfb8b6a",
+  "name" : "choose_subheading",
+  "display_width" : null,
+  "label" : "choose-subheading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "The Power Of Computers To Intelligent Machines."
+} ]

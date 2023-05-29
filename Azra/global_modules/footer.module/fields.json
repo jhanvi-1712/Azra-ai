@@ -1,0 +1,137 @@
+[ {
+  "id" : "83bd3b03-2fa8-65ef-908d-bfc31ba1cf77",
+  "name" : "logo_field",
+  "display_width" : null,
+  "label" : "Logo",
+  "required" : false,
+  "locked" : true,
+  "show_loading" : false,
+  "type" : "logo",
+  "default" : {
+    "override_inherited_src" : true,
+    "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Azra.ai.png",
+    "alt" : "Azra.ai",
+    "suppress_company_name" : true,
+    "width" : 133,
+    "height" : 53
+  }
+}, {
+  "id" : "afec574b-b6f9-8204-5ba5-1ec75e0a017a",
+  "name" : "contact_us",
+  "display_width" : null,
+  "label" : "contact-us",
+  "required" : false,
+  "locked" : true,
+  "type" : "richtext",
+  "default" : "<h4 style=\"font-size: 24px;\">Contact us</h4>"
+}, {
+  "id" : "0105a480-c0ee-e6f0-f082-76effcd2736e",
+  "name" : "contact_details",
+  "display_width" : null,
+  "label" : "contact details",
+  "required" : false,
+  "locked" : true,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : "56ebdbf9-bf55-1142-05f0-2e917b40b673",
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "cfdbdc5f-aade-514a-9331-ecd43760e878",
+    "name" : "location",
+    "display_width" : null,
+    "label" : "location",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24.727\" height=\"35.324\" viewBox=\"0 0 24.727 35.324\"> <path id=\"Icon_material-location-on\" data-name=\"Icon material-location-on\" d=\"M19.863,3A12.354,12.354,0,0,0,7.5,15.363c0,9.272,12.363,22.96,12.363,22.96s12.363-13.688,12.363-22.96A12.354,12.354,0,0,0,19.863,3Zm0,16.779a4.415,4.415,0,1,1,4.415-4.415A4.417,4.417,0,0,1,19.863,19.779Z\" transform=\"translate(-7.5 -3)\" fill=\"#f4cdd4\"></path> </svg>"
+  }, {
+    "id" : "56ebdbf9-bf55-1142-05f0-2e917b40b673",
+    "name" : "address",
+    "display_width" : null,
+    "label" : "address",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "location" : "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24.727\" height=\"35.324\" viewBox=\"0 0 24.727 35.324\"> <path id=\"Icon_material-location-on\" data-name=\"Icon material-location-on\" d=\"M19.863,3A12.354,12.354,0,0,0,7.5,15.363c0,9.272,12.363,22.96,12.363,22.96s12.363-13.688,12.363-22.96A12.354,12.354,0,0,0,19.863,3Zm0,16.779a4.415,4.415,0,1,1,4.415-4.415A4.417,4.417,0,0,1,19.863,19.779Z\" transform=\"translate(-7.5 -3)\" fill=\"#f4cdd4\"></path> </svg>"
+  }, {
+    "location" : "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24.727\" height=\"35.324\" viewBox=\"0 0 24.727 35.324\"> <path id=\"Icon_material-location-on\" data-name=\"Icon material-location-on\" d=\"M19.863,3A12.354,12.354,0,0,0,7.5,15.363c0,9.272,12.363,22.96,12.363,22.96s12.363-13.688,12.363-22.96A12.354,12.354,0,0,0,19.863,3Zm0,16.779a4.415,4.415,0,1,1,4.415-4.415A4.417,4.417,0,0,1,19.863,19.779Z\" transform=\"translate(-7.5 -3)\" fill=\"#f4cdd4\"></path> </svg>"
+  }, {
+    "location" : "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24.727\" height=\"35.324\" viewBox=\"0 0 24.727 35.324\"> <path id=\"Icon_material-location-on\" data-name=\"Icon material-location-on\" d=\"M19.863,3A12.354,12.354,0,0,0,7.5,15.363c0,9.272,12.363,22.96,12.363,22.96s12.363-13.688,12.363-22.96A12.354,12.354,0,0,0,19.863,3Zm0,16.779a4.415,4.415,0,1,1,4.415-4.415A4.417,4.417,0,0,1,19.863,19.779Z\" transform=\"translate(-7.5 -3)\" fill=\"#f4cdd4\"></path> </svg>"
+  } ]
+}, {
+  "id" : "a6a616a2-6b82-e850-b735-17d7b0c1d6d8",
+  "name" : "icon1",
+  "display_width" : null,
+  "label" : "icon1",
+  "required" : false,
+  "locked" : true,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 4,
+    "sorting_label_field" : null,
+    "default" : 4
+  },
+  "type" : "richtext",
+  "default" : [ "<svg class=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"20.001\" height=\"20.001\" viewBox=\"0 0 20.001 20.001\"> <path id=\"Icon_awesome-linkedin-in\" data-name=\"Icon awesome-linkedin-in\" d=\"M4.477,20H.33V6.648H4.477ZM2.4,4.826A2.413,2.413,0,1,1,4.8,2.4,2.422,2.422,0,0,1,2.4,4.826ZM20,20H15.859V13.5c0-1.549-.031-3.536-2.156-3.536-2.156,0-2.486,1.683-2.486,3.424V20H7.075V6.648h3.977V8.469h.058a4.357,4.357,0,0,1,3.923-2.156c4.2,0,4.968,2.764,4.968,6.353V20Z\" transform=\"translate(0 -0.001)\" fill=\"#f4cdd4\"></path> </svg>", "<svg class=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"20.001\" height=\"20.001\" viewBox=\"0 0 20.001 20.001\"> <path id=\"Icon_awesome-linkedin-in\" data-name=\"Icon awesome-linkedin-in\" d=\"M4.477,20H.33V6.648H4.477ZM2.4,4.826A2.413,2.413,0,1,1,4.8,2.4,2.422,2.422,0,0,1,2.4,4.826ZM20,20H15.859V13.5c0-1.549-.031-3.536-2.156-3.536-2.156,0-2.486,1.683-2.486,3.424V20H7.075V6.648h3.977V8.469h.058a4.357,4.357,0,0,1,3.923-2.156c4.2,0,4.968,2.764,4.968,6.353V20Z\" transform=\"translate(0 -0.001)\" fill=\"#f4cdd4\"></path> </svg>", "<svg class=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"20.001\" height=\"20.001\" viewBox=\"0 0 20.001 20.001\"> <path id=\"Icon_awesome-linkedin-in\" data-name=\"Icon awesome-linkedin-in\" d=\"M4.477,20H.33V6.648H4.477ZM2.4,4.826A2.413,2.413,0,1,1,4.8,2.4,2.422,2.422,0,0,1,2.4,4.826ZM20,20H15.859V13.5c0-1.549-.031-3.536-2.156-3.536-2.156,0-2.486,1.683-2.486,3.424V20H7.075V6.648h3.977V8.469h.058a4.357,4.357,0,0,1,3.923-2.156c4.2,0,4.968,2.764,4.968,6.353V20Z\" transform=\"translate(0 -0.001)\" fill=\"#f4cdd4\"></path> </svg>", "<svg class=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"20.001\" height=\"20.001\" viewBox=\"0 0 20.001 20.001\"> <path id=\"Icon_awesome-linkedin-in\" data-name=\"Icon awesome-linkedin-in\" d=\"M4.477,20H.33V6.648H4.477ZM2.4,4.826A2.413,2.413,0,1,1,4.8,2.4,2.422,2.422,0,0,1,2.4,4.826ZM20,20H15.859V13.5c0-1.549-.031-3.536-2.156-3.536-2.156,0-2.486,1.683-2.486,3.424V20H7.075V6.648h3.977V8.469h.058a4.357,4.357,0,0,1,3.923-2.156c4.2,0,4.968,2.764,4.968,6.353V20Z\" transform=\"translate(0 -0.001)\" fill=\"#f4cdd4\"></path> </svg>" ]
+}, {
+  "id" : "fde732c9-83db-fe40-e9dd-8fea396e292c",
+  "name" : "copyright",
+  "display_width" : null,
+  "label" : "copyright",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Copyright © 2022 <a href=\"#\">Azra</a>, All Rights Reserved."
+}, {
+  "id" : "42b16966-c7ab-745c-dd74-8367d8a7cd67",
+  "name" : "privacy",
+  "display_width" : null,
+  "label" : "privacy",
+  "required" : false,
+  "locked" : true,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 2,
+    "sorting_label_field" : null,
+    "default" : 2
+  },
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : [ "Privacy Policy", "Privacy Policy" ]
+}, {
+  "id" : "7c2aa580-09ff-e419-aae3-2999be2cb290",
+  "name" : "follow",
+  "display_width" : null,
+  "label" : "follow",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Follow us"
+}, {
+  "id" : "09f3db9a-4988-62b0-e8fa-ba4af2c034d0",
+  "name" : "rich_text",
+  "display_width" : null,
+  "label" : "Rich text",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever"
+} ]

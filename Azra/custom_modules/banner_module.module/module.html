@@ -1,0 +1,41 @@
+<div class="banner" style="background: url('{{ module.style.background_image_2.src }}'); background-repeat: no-repeat; background-size:cover;">
+     <div class="wrapper">
+    <div class="hero-section">
+      
+      
+      {% if module.intro_heading %}
+     <div class="heading">
+        <h1>
+          {{ module.intro_heading }}  
+       </h1>
+      </div>
+      {% endif %}
+      
+      
+       {% if module.details %}
+      <div class="details">
+      <p>
+         {{ module.details }}
+        </p>
+      </div> 
+       {% endif %}
+      
+      {% if module.button_group  %}
+      <div class="btn1">
+    {% set href = module.button_group.contact_us.url.href %}
+{% if module.button_group.contact_us.url.type is equalto "EMAIL_ADDRESS" %}
+	{% set href = "mailto:" + href %}
+{% endif %}
+<a href="{{ href }}"
+	{% if module.button_group.contact_us.open_in_new_tab %}target="_blank"{% endif %}
+	{% if module.button_group.contact_us.rel %}rel="{{ module.button_group.contact_us.rel }}"{% endif %}
+	>
+	{{ module.button_group.btn_text }}
+</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+</div>
+

@@ -1,0 +1,110 @@
+[ {
+  "id" : "a0b5312e-0004-36e4-9306-c759c8be3900",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "8858d54d-3ed6-3156-d833-6d5ef61c1c87",
+    "name" : "background_image_2",
+    "display_width" : null,
+    "label" : "Background image 1",
+    "required" : false,
+    "locked" : false,
+    "type" : "backgroundimage",
+    "default" : {
+      "background_position" : "MIDDLE_CENTER",
+      "background_size" : "cover",
+      "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/assets/mercadona-facial-recognition-mallorca.png"
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "background_image_2" : {
+      "background_position" : "MIDDLE_CENTER",
+      "background_size" : "cover",
+      "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/assets/mercadona-facial-recognition-mallorca.png"
+    }
+  }
+}, {
+  "id" : "3daebce1-da32-f3cb-cdeb-031690f34854",
+  "name" : "button_group",
+  "display_width" : null,
+  "label" : "button group",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "47876f7d-48c9-3975-2331-ee76c4de1f8d",
+    "name" : "contact_us",
+    "display_width" : null,
+    "label" : "contact-us",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "871e035d-20cb-ea81-9d1f-bf0877cf82d2",
+    "name" : "btn_text",
+    "display_width" : null,
+    "label" : "btn-text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Contact us"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "contact_us" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    },
+    "btn_text" : "Contact us"
+  }
+}, {
+  "id" : "ff69b7d6-c4e1-581f-67d6-5b8cb3792ad7",
+  "name" : "intro_heading",
+  "display_width" : null,
+  "label" : "intro_heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Life Isn’t Structured. <br> Data Shouldn’t Have To Be. "
+}, {
+  "id" : "642a7e5f-c8b0-0fcf-5be0-b98eef067b78",
+  "name" : "details",
+  "display_width" : null,
+  "label" : "details",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500S,"
+} ]

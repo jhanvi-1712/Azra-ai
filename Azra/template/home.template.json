@@ -1,0 +1,368 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ {
+    "path" : "/adobe/coded_files/style.css",
+    "type" : "cos_extension_resource"
+  } ],
+  "attachedJs" : [ {
+    "path" : "/adobe/coded_files/plugin.js",
+    "type" : "cos_extension_resource"
+  }, {
+    "path" : "/adobe/coded_files/script.js",
+    "type" : "cos_extension_resource"
+  } ],
+  "customHead" : "",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_168482259359821",
+        "label" : "header",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/adobe/global_modules/header",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "header",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_168431846689619",
+        "label" : "banner_module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/adobe/custom_modules/banner_module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "banner_module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_168438562027018",
+        "label" : "about",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/adobe/custom_modules/about",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "about",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_168439059754430",
+        "label" : "counter",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "number_text" : [ {
+            "describe_number" : "<h4>Year of Foundation</h4>",
+            "number" : "<h1>2010</h1>"
+          }, {
+            "describe_number" : "<h4>Solutions Delivered</h4>",
+            "number" : "<h1>714+</h1>"
+          }, {
+            "describe_number" : "<h4>Professionals And Growing</h4>",
+            "number" : "<h1>411+</h1>"
+          }, {
+            "describe_number" : "<h4>Phd In Math/ Computer Science</h4>",
+            "number" : "<h1>90%</h1>"
+          } ],
+          "overrideable" : true,
+          "path" : "/adobe/custom_modules/counter",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "counter",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_168443036541514",
+        "label" : "operations",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/adobe/custom_modules/operations",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "svg_card" : [ {
+            "caption" : "Annotate ",
+            "img_svg" : "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"57.025\" height=\"68.436\" viewBox=\"0 0 57.025 68.436\"> <path id=\"Path_72\" data-name=\"Path 72\" d=\"M122.923,31.8a2.9,2.9,0,0,0-2.22-1H70.021a3.008,3.008,0,0,0-2.256,1,3.593,3.593,0,0,0-.916,2.461V95.776a3.453,3.453,0,0,0,.916,2.422,2.959,2.959,0,0,0,2.256,1.038H120.7a2.853,2.853,0,0,0,2.22-1.038,3.38,3.38,0,0,0,.952-2.422V34.261a3.516,3.516,0,0,0-.952-2.461m-5.392,5.921V92.316H73.193V37.721h6.344a5.378,5.378,0,0,0-.035.615v1.846a3.453,3.453,0,0,0,.917,2.422,2.96,2.96,0,0,0,2.255,1.038,2.855,2.855,0,0,0,2.22-1.038,3.382,3.382,0,0,0,.952-2.422V38.336a2.714,2.714,0,0,0-.07-.615h6.45a5.378,5.378,0,0,0-.035.615v1.846a3.453,3.453,0,0,0,.917,2.422,2.96,2.96,0,0,0,2.255,1.038,2.855,2.855,0,0,0,2.22-1.038,3.382,3.382,0,0,0,.952-2.422V38.336a2.714,2.714,0,0,0-.07-.615h6.379q0,.188,0,.385v2.307a3.455,3.455,0,0,0,.917,2.422,2.958,2.958,0,0,0,2.255,1.038,2.853,2.853,0,0,0,2.22-1.038,3.38,3.38,0,0,0,.952-2.422V38.106a2.111,2.111,0,0,0-.035-.385h6.379M76.4,75.092a1.988,1.988,0,0,0,1.516.692h34.892a1.882,1.882,0,0,0,1.48-.692,2.231,2.231,0,0,0,.634-1.615,2.367,2.367,0,0,0-.634-1.654,1.929,1.929,0,0,0-1.48-.653H77.916a2.04,2.04,0,0,0-1.516.653,2.446,2.446,0,0,0-.6,1.654,2.3,2.3,0,0,0,.6,1.615m1.516,5.69a2.04,2.04,0,0,0-1.516.653,2.446,2.446,0,0,0-.6,1.654,2.3,2.3,0,0,0,.6,1.615,1.988,1.988,0,0,0,1.516.692h34.892a1.882,1.882,0,0,0,1.48-.692,2.231,2.231,0,0,0,.634-1.615,2.367,2.367,0,0,0-.634-1.654,1.929,1.929,0,0,0-1.48-.653H77.916M114.288,52.6a1.929,1.929,0,0,0-1.48-.653H77.916A2.04,2.04,0,0,0,76.4,52.6a2.446,2.446,0,0,0-.6,1.654,2.3,2.3,0,0,0,.6,1.615,1.988,1.988,0,0,0,1.516.692h34.892a1.882,1.882,0,0,0,1.48-.692,2.231,2.231,0,0,0,.634-1.615,2.367,2.367,0,0,0-.634-1.654m0,9.612a1.929,1.929,0,0,0-1.48-.653H77.916a2.04,2.04,0,0,0-1.516.653,2.446,2.446,0,0,0-.6,1.654,2.3,2.3,0,0,0,.6,1.615,1.988,1.988,0,0,0,1.516.692h34.892a1.882,1.882,0,0,0,1.48-.692,2.231,2.231,0,0,0,.634-1.615A2.367,2.367,0,0,0,114.288,62.212Z\" transform=\"translate(-66.849 -30.801)\" fill=\"#fff\"></path> </svg>",
+            "shape" : "<img src=\"https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Group%205411.svg\" alt=\"Group 5411\" loading=\"lazy\">",
+            "svg_describe" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever"
+          }, {
+            "caption" : "Evaluate",
+            "img_svg" : "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60.334\" height=\"75.993\" viewBox=\"0 0 60.334 75.993\"> <g id=\"Group_5418\" data-name=\"Group 5418\" transform=\"translate(-22067.232 -2919)\"> <path id=\"Path_73\" data-name=\"Path 73\" d=\"M184.765,198.5l3.321,1.922a31.751,31.751,0,0,1-6.808,11.778l-3.351-1.93c-.007-.007-.015-.007-.023-.015a.3.3,0,0,0-.114-.046l-.068-.023h-.007a.275.275,0,0,0-.076-.015.1.1,0,0,0-.046-.007.636.636,0,0,0-.205.007.2.2,0,0,0-.091.023.5.5,0,0,0-.1.03.7.7,0,0,0-.167.091c-.015.007-.03.023-.046.03s-.038.038-.061.053l-.015.015a27.224,27.224,0,0,1-11.565,6.679l-.076.023a.351.351,0,0,0-.053.023.5.5,0,0,0-.107.061,1.425,1.425,0,0,0-.114.091.718.718,0,0,0-.16.213.4.4,0,0,0-.046.114.411.411,0,0,0-.03.091,1354.614,1354.614,0,0,1-.015.106c0,.03-.007.061-.007.084v3.875a32.066,32.066,0,0,1-13.6,0V217.9a.294.294,0,0,0-.007-.084.423.423,0,0,0-.015-.1l-.023-.068c-.007-.015-.007-.03-.015-.053a1.5,1.5,0,0,0-.076-.152.13.13,0,0,0-.038-.053.5.5,0,0,0-.061-.068l-.03-.03a.759.759,0,0,0-.221-.152.376.376,0,0,0-.053-.023.3.3,0,0,0-.076-.023,27.26,27.26,0,0,1-11.58-6.694c-.03-.023-.061-.053-.091-.076a.3.3,0,0,0-.084-.053.284.284,0,0,0-.1-.046h-.007a.467.467,0,0,0-.1-.03l-.1-.023a.917.917,0,0,0-.205-.007.1.1,0,0,0-.046.007.258.258,0,0,0-.076.015h-.007l-.068.023-.114.046c-.007,0-.015.007-.023.015l-3.351,1.938a31.63,31.63,0,0,1-6.808-11.778l3.344-1.93a.75.75,0,0,0,.175-.129l.046-.046a.338.338,0,0,0,.046-.053.1.1,0,0,1,.023-.03.694.694,0,0,0,.053-.084.856.856,0,0,0,.038-.084.416.416,0,0,0,.03-.107v-.007a.39.39,0,0,0,.015-.091v-.015a.442.442,0,0,0,.007-.1.932.932,0,0,0-.023-.205v-.007a27.371,27.371,0,0,1,0-13.366v-.007a.932.932,0,0,0,.023-.205.442.442,0,0,0-.007-.1v-.015a.364.364,0,0,0-.015-.091v-.007c-.007-.038-.023-.068-.03-.107s-.023-.053-.038-.084a.686.686,0,0,0-.046-.076l-.068-.091a.263.263,0,0,0-.046-.046,1.477,1.477,0,0,0-.175-.129l-3.344-1.93a31.852,31.852,0,0,1,6.808-11.778l3.305,1.907c.015.007.03.023.046.03a.6.6,0,0,0,.1.053.273.273,0,0,0,.084.023.227.227,0,0,0,.068.015c.007,0,.015.007.023.007a.172.172,0,0,0,.061.007c.03,0,.061.007.091.007a.588.588,0,0,0,.114-.007.231.231,0,0,0,.1-.023.5.5,0,0,0,.1-.03.275.275,0,0,0,.084-.038.171.171,0,0,0,.038-.023.258.258,0,0,0,.061-.038.45.45,0,0,0,.091-.076c.258-.251.524-.494.79-.729v14.864a18.99,18.99,0,1,0,37,8.125.505.505,0,0,0,.068-.061.833.833,0,0,0,.243-.593l-.015-21.519a.151.151,0,0,0,.046.03c.015.007.03.023.046.03a.855.855,0,0,0,.084.038.47.47,0,0,0,.1.03l.091.023a.046.046,0,0,1,.03.007c.03,0,.061.007.091.007a.378.378,0,0,0,.091-.007c.023,0,.038-.007.061-.007a.028.028,0,0,0,.023-.007.07.07,0,0,0,.038-.007c.015,0,.023-.007.03-.007.023-.007.053-.015.084-.023a.639.639,0,0,0,.1-.053c.015-.007.03-.023.046-.03l3.305-1.907a31.63,31.63,0,0,1,6.808,11.778l-3.321,1.922a.055.055,0,0,0-.03.015.709.709,0,0,0-.1.061l-.007.007c-.023.023-.046.038-.068.061a1.263,1.263,0,0,0-.091.107.258.258,0,0,0-.046.076v.007a.574.574,0,0,0-.076.19c0,.007,0,.007-.007.015a.833.833,0,0,0,0,.41,27.432,27.432,0,0,1,0,13.381.833.833,0,0,0,0,.41c0,.007,0,.007.007.015a.833.833,0,0,0,.076.19v.007a.65.65,0,0,0,.061.091c.023.03.053.061.076.091a.5.5,0,0,0,.068.061.007.007,0,0,1,.007.007.441.441,0,0,0,.1.061s0,.006.02.006Z\" transform=\"translate(21939.469 2772.485)\" fill=\"#fff\"></path> <path id=\"Path_74\" data-name=\"Path 74\" d=\"M448.048,12.138h-3.4v-3.4Z\" transform=\"translate(21665.586 2911.451)\" fill=\"#fff\"></path> <path id=\"Path_75\" data-name=\"Path 75\" d=\"M262.138,23.029v-.046l-.007-16.709h-5.4a.846.846,0,0,1-.843-.843V.005H228.194V45.591h33.959Zm-5.418,1.907H233.013a.843.843,0,0,1,0-1.687h23.708a.843.843,0,0,1,0,1.687Zm0-5.046H233.013a.843.843,0,0,1,0-1.687h23.708a.843.843,0,0,1,0,1.687Zm0-5.053H233.013a.843.843,0,0,1,0-1.687h23.708a.843.843,0,0,1,0,1.687Zm0-5.046H233.013a.843.843,0,0,1,0-1.687h23.708a.843.843,0,0,1,0,1.687Z\" transform=\"translate(21852.666 2918.995)\" fill=\"#fff\"></path> </g> </svg>",
+            "shape" : "<img src=\"https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Group%205411.svg\" alt=\"Group 5411\" loading=\"lazy\">",
+            "svg_describe" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever"
+          }, {
+            "caption" : "Collect",
+            "img_svg" : "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"56.996\" height=\"75.993\" viewBox=\"0 0 56.996 75.993\"> <g id=\"noun-collect-424422\" transform=\"translate(-140.876 -0.005)\"> <path id=\"Path_76\" data-name=\"Path 76\" d=\"M229.033,37.655a1.193,1.193,0,0,0,1.681,0l17.811-16.624a1.191,1.191,0,0,0,.347-.841,1.221,1.221,0,0,0-.093-.454A1.188,1.188,0,0,0,247.685,19h-8.431V1.192A1.191,1.191,0,0,0,238.067,0H221.443a1.188,1.188,0,0,0-1.187,1.187V19h-8.193a1.194,1.194,0,0,0-1.1.734,1.214,1.214,0,0,0-.088.454,1.191,1.191,0,0,0,.347.841Z\" transform=\"translate(-60.5)\" fill=\"#fff\"></path> <path id=\"Path_77\" data-name=\"Path 77\" d=\"M196.888,210.657l-9.328-4.7-5.068,4.73,8.255,4.13-21.373,10.589L148,214.817l8.255-4.127-5.07-4.728-9.326,4.7a1.784,1.784,0,0,0-.983,1.6v26.493a1.789,1.789,0,0,0,.983,1.6l26.717,13.456a1.735,1.735,0,0,0,1.6,0l26.717-13.456a1.789,1.789,0,0,0,.983-1.6V212.257a1.789,1.789,0,0,0-.983-1.6Z\" transform=\"translate(0 -178.004)\" fill=\"#fff\"></path> </g> </svg>",
+            "shape" : "<img src=\"https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Group%205411.svg\" alt=\"Group 5411\" loading=\"lazy\">",
+            "svg_describe" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever"
+          }, {
+            "caption" : "Generate",
+            "img_svg" : "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"80.977\" height=\"75.993\" viewBox=\"0 0 80.977 75.993\"> <g id=\"Group_5419\" data-name=\"Group 5419\" transform=\"translate(-21811.922 -2561)\"> <path id=\"Path_78\" data-name=\"Path 78\" d=\"M321.283,225.1a5.031,5.031,0,0,0-5.025,5.025,10.476,10.476,0,0,0,1.459,4.211,15.422,15.422,0,0,1,1.627,4.295h.605v-3.826a1.333,1.333,0,0,1,2.666,0v3.826h.6a15.151,15.151,0,0,1,1.652-4.373,10.186,10.186,0,0,0,1.439-4.133,5.029,5.029,0,0,0-5.024-5.025Z\" transform=\"translate(21530.875 2365.291)\" fill=\"#fff\"></path> <path id=\"Path_79\" data-name=\"Path 79\" d=\"M436.793,461.276a2.2,2.2,0,0,0,.481.054,2.169,2.169,0,0,0,.479-4.284,2.168,2.168,0,0,0-2.594,1.633A2.174,2.174,0,0,0,436.793,461.276Z\" transform=\"translate(21430.895 2170.211)\" fill=\"#fff\"></path> <path id=\"Path_80\" data-name=\"Path 80\" d=\"M339.071,327.728a2.4,2.4,0,0,0,1.669-.589H337.4a2.4,2.4,0,0,0,1.67.589Z\" transform=\"translate(21513.088 2279.45)\" fill=\"#fff\"></path> <path id=\"Path_81\" data-name=\"Path 81\" d=\"M232.721,457.044a2.168,2.168,0,0,0-2.6,1.633,2.168,2.168,0,1,0,2.6-1.633Z\" transform=\"translate(21603.379 2170.212)\" fill=\"#fff\"></path> <path id=\"Path_82\" data-name=\"Path 82\" d=\"M131.444,264.954a2.159,2.159,0,0,0-.482-.054,2.168,2.168,0,0,0-.478,4.283,2.212,2.212,0,0,0,2.594-1.634,2.172,2.172,0,0,0-1.634-2.6Z\" transform=\"translate(21688.578 2331.809)\" fill=\"#fff\"></path> <path id=\"Path_83\" data-name=\"Path 83\" d=\"M232.734,80.655a2.159,2.159,0,0,0-.482-.054,2.169,2.169,0,1,0,.482.054Z\" transform=\"translate(21603.367 2486.851)\" fill=\"#fff\"></path> <path id=\"Path_84\" data-name=\"Path 84\" d=\"M436.791,78.572a2.168,2.168,0,1,0,.477-4.281,2.167,2.167,0,0,0-.477,4.281Z\" transform=\"translate(21430.896 2492.159)\" fill=\"#fff\"></path> <path id=\"Path_85\" data-name=\"Path 85\" d=\"M174.258,73.778a7.57,7.57,0,0,0-4.759-3.371,7.664,7.664,0,0,0-1.693-.19,7.574,7.574,0,0,0-7.425,5.929c-.027.119-.041.238-.062.357h-7.981l-7.525-13.036,4.824-8.355a7.694,7.694,0,0,0,1.066.084,7.637,7.637,0,1,0-3.652-.939l-4.378,7.582h-15.9l-4.109-7.116a7.639,7.639,0,1,0-2.4,1.178l4.334,7.506L117.042,76.5h-7.467a7.628,7.628,0,1,0-.075,3.024c.027-.119.042-.238.063-.357h7.584l7.76,13.441-4.826,8.359c-.081-.02-.159-.049-.241-.067a7.585,7.585,0,1,0,2.676,1.181l4.871-8.437h15.18l4.582,7.935a7.644,7.644,0,1,0,3.545-.871,7.731,7.731,0,0,0-.933.062l-5-8.662,7.472-12.943h8.076a7.619,7.619,0,1,0,13.952-5.391ZM146.852,46.7a3.922,3.922,0,0,1,3.845-3.071,3.947,3.947,0,1,1-3.845,3.071ZM122,49.454a3.927,3.927,0,0,1-3.846,3.071A3.948,3.948,0,0,1,114.3,47.7a3.947,3.947,0,0,1,7.7,1.751ZM105.921,78.711a3.928,3.928,0,0,1-3.846,3.073,3.946,3.946,0,0,1-3.849-4.821,3.946,3.946,0,0,1,7.7,1.749ZM122,109.206a3.947,3.947,0,1,1-3.85-4.822,3.947,3.947,0,0,1,3.85,4.822Zm18.659-29.5a15.34,15.34,0,0,0-1.333,3.2,1.329,1.329,0,0,1,0,2.624,4.913,4.913,0,0,1-9.266,0,1.329,1.329,0,0,1-.013-2.622,15.93,15.93,0,0,0-1.307-3.129,12.459,12.459,0,0,1-1.739-5.4,7.692,7.692,0,1,1,15.383,0,12.2,12.2,0,0,1-1.724,5.329Zm10.04,24.679a3.946,3.946,0,0,1,3.848,4.822,3.946,3.946,0,1,1-3.848-4.822Zm20.958-25.672a3.927,3.927,0,0,1-3.846,3.071,3.947,3.947,0,0,1-3.85-4.821,3.947,3.947,0,0,1,7.7,1.75Z\" transform=\"translate(21717.469 2521.042)\" fill=\"#fff\"></path> <path id=\"Path_86\" data-name=\"Path 86\" d=\"M545.529,264.954a2.155,2.155,0,0,0-.482-.054,2.168,2.168,0,0,0-.479,4.283,2.215,2.215,0,0,0,2.6-1.634,2.167,2.167,0,0,0-1.634-2.595Z\" transform=\"translate(21340.229 2331.809)\" fill=\"#fff\"></path> </g> </svg>",
+            "shape" : "<img src=\"https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Group%205411.svg\" alt=\"Group 5411\" loading=\"lazy\">",
+            "svg_describe" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever"
+          } ],
+          "widget_name" : "operations",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_168448136931613",
+        "label" : "choose",
+        "type" : "custom_widget",
+        "params" : {
+          "choose_card" : [ {
+            "card_heading" : "Identify",
+            "card_sub_heading" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever",
+            "choose_circle_image" : {
+              "alt" : "Group 5424",
+              "height" : 52,
+              "loading" : "lazy",
+              "max_height" : 52,
+              "max_width" : 43,
+              "size_type" : "auto",
+              "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Group%205424.png",
+              "width" : 43
+            }
+          }, {
+            "card_heading" : "Assess",
+            "card_sub_heading" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever",
+            "choose_circle_image" : {
+              "alt" : "Group 5426",
+              "height" : 44,
+              "loading" : "lazy",
+              "max_height" : 44,
+              "max_width" : 44,
+              "size_type" : "auto",
+              "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Group%205426.png",
+              "width" : 44
+            }
+          }, {
+            "card_heading" : "Intervene",
+            "card_sub_heading" : "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever",
+            "choose_circle_image" : {
+              "alt" : "Group 5428",
+              "height" : 36,
+              "loading" : "lazy",
+              "max_height" : 36,
+              "max_width" : 65,
+              "size_type" : "auto",
+              "src" : "https://39649841.fs1.hubspotusercontent-na1.net/hubfs/39649841/Group%205428.png",
+              "width" : 65
+            }
+          } ],
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/adobe/custom_modules/choose",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "choose",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_168449613520111",
+        "label" : "form",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/adobe/custom_modules/form",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "form",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1684244250824132",
+        "label" : "footer",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/adobe/global_modules/footer",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "footer",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}
